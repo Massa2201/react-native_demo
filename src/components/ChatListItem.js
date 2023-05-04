@@ -4,21 +4,19 @@ const ChatListItem = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={{
-          uri: "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/lukas.jpeg",
-        }}
+        source={require("./../../assets/img_Leon.png")}
         style={styles.image}
       />
       <View style={styles.content}>
         <View style={styles.row}>
           <Text style={styles.name} numberOfLines={1}>
-            Lucas
+            Leon
           </Text>
           <Text style={styles.subTitle}>8:38</Text>
         </View>
 
         <Text numberOfLines={2} style={styles.subTitle}>
-          Hello There
+          i wanna play re4...
         </Text>
       </View>
     </View>
