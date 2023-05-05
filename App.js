@@ -6,10 +6,10 @@ const chat = {
   id: "1",
   user: {
     image: require("./assets/img_Leon.png"),
-    name: "Leon",
+    name: "Leon S. Kennedy",
   },
   lastMessage: {
-    text: "evil",
+    text: "resident evil",
     createdAt: "02:09",
   },
 };
@@ -17,8 +17,8 @@ const chat = {
 export default function App() {
   return (
     <View style={styles.container}>
-      <ChatListItem />
-      <ChatListItem />
+      <ChatListItem chat={chat} />
+
       <StatusBar style="auto" />
     </View>
   );
