@@ -6,7 +6,7 @@ import ChatScreen from "./src/screens/ChatScreen";
 export default function App() {
   return (
     <View style={styles.container}>
-      <ChatScreen />
+      <ChatsScreen />
 
       <StatusBar style="auto" />
     </View>
