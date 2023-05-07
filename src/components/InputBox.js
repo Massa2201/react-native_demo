@@ -6,7 +6,7 @@ const InputBox = () => {
   const [newMessage, setNewMessage] = useState("");
 
   const onSend = () => {
-    console.log("送信されたメッセージ: ", newMessage);
+    console.log(newMessage);
     setNewMessage("");
   };
 
