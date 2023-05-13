@@ -49,7 +49,7 @@ const MainTabNavigator = () => {
         component={NotImplementedScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="logo-whatsapp" size={size} color={color} />
+            <Ionicons name="settings-outline" size={size} color={color} />
           ),
         }}
       />
