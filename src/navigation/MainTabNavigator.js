@@ -7,7 +7,13 @@ const Tab = createBottomTabNavigator();
 
 const MainTabNavigator = () => {
   return (
-    <Tab.Navigator initialRouteName="Chats">
+    <Tab.Navigator
+      initialRouteName="Chats"
+      screenOptions={{
+        tabBarStyle: { backgroundColor: "whitesmoke" },
+        headerStyle: { backgroundColor: "whitesmoke" },
+      }}
+    >
       <Tab.Screen
         name="Status"
         component={NotImplementedScreen}
