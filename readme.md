@@ -3,3 +3,9 @@
 ## 構成図
 
 mermaid.jsで記述する予定
+
+``` mermaid
+
+sequenceDiagram
+
+```
