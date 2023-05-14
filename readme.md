@@ -2,4 +2,4 @@
 
 ## 構成図
 
-marmaid.jsで記述する予定
+mermaid.jsで記述する予定
