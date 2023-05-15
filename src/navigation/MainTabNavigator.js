@@ -24,7 +24,7 @@ const MainTabNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Calls"
+        name="Search"
         component={NotImplementedScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
@@ -33,7 +33,7 @@ const MainTabNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Camera"
+        name="AI Training"
         component={NotImplementedScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
